@@ -2,43 +2,60 @@
     font-family: camptonlight;
     src: url(fonts/Campton-LightDEMO.otf);
 }
+
+body {
+  font-size: 16px;
+}
+
 .landing {
   position: relative;
 }
+
 .background {
   z-index: -10;
   height: 850px;
   width: 100%;
+  top: 0%;
+  min-width: 790px;
+  max-width: 2000px;
 }
+
 .logo {
   display: inline-block;
   position: absolute;
-  margin: 20px;
+  margin: 5%;
   z-index: 20;
 }
+
 .banner {
   position: absolute;
   width: 100%;
 }
+
 h1 {
-  font-size: 80px;
-  margin-top: 400px;
-  padding-left: 50px;
+  font-size: 5em;
+  margin-top: 30%;
+  padding-left: 5%;
   font-family: 'Homemade Apple', cursive;
   color: #4a4a4a;
+  line-height: 125%;
 }
+
 h3 {
-  font-size: 25px;
-  padding-top: 10px;
-  padding-left: 50px;
+  font-size: 2em;
+  padding-top: 2%;
+  padding-left: 5%;
   font-family: 'Poppins', sans-serif;
   color: #4a4a4a;
+  line-height: 120%;
 }
+
 .landing {
   background-image: #000000 url("https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0b6cf0f2bd64f9788f12b2b43c959c11");
   background-position: center;
   background-repeat: no-repeat;
 }
+
 nav {
   font-family:'Poppins', sans-serif;
   font-size: 16px;
@@ -49,16 +66,19 @@ nav {
   right: 20px;
   top: 10px;
 }
+
 ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
+
 li {
    float: left;
    padding: 10px;
    margin: 10px;
   }
+
 a {
   display: block;
   padding: 10px;
@@ -70,6 +90,7 @@ a {
   width: 90px;
   text-align: center;
 }
+
 .home {
   color: #4a4a4a;
   border: solid #4a4a4a 2px;
@@ -117,7 +138,6 @@ a {
   float: left;
 }
 
-
 h4 {
   font-family: helvetica-light;
   color: rgba(75, 75, 75, 0.5);
@@ -131,7 +151,7 @@ p {
   line-height: 1.5;
   margin-top: 40px;
   margin-bottom: 60px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.25px;
 }
 
 .cta1 {

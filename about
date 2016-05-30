@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cssreset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300|Homemade+Apple' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <title>About Me</title>
+  </head>
+<!-- ------------------------ -->
+  <body>
+    <div class="wrapper">
+      <div class="landing">
+      <header>
+          <img class="logo" src="images/AP_logo.png" alt="andee pittman's logo" height="70px" width="95px" class="align-left"
+          style="display: inline-block;"/>
+          <nav>
+              <ul>
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="about" href="about.html">About</a></li>
+                <li><a class="work" href="work.html">Work</a></li>
+                <li><a class="contact" href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+      <section class="banner">
+          <img class="background" src="images/About_me.jpg" alt="sitting at a desk" style="position: absolute; top: 0px;"/>
+          <h1>Who am I?</h1>
+      </section>
+    </div>
+
+    <div class="clearfix">
+      <section class="info1">
+        <img class="image1" src="images/red-cp-ch.jpg" alt="Doing user reserach">
+        <div class="supporttext1">
+            <h4>The Whole Cahooney</h4>
+            <p>From research to UI, I can take a design from discovery to final prototype. Heck, I even coded this website!</p>
+            <a href="work.html" class="cta1">See Proof</a>
+        </div>
+      </section>
+
+      <section class="info2">
+          <img class="image2" src="images/designleadership.jpg" alt="Designing for the future"/>
+          <div class="supporttext2">
+            <h4>Designing for Social Innovation</h4>
+            <p>As a designer it's my job to tackle the largest problems we face as humans.</p>
+            <a href="work.html" class="cta2">My Innovations</a>
+          </div>
+      </section>
+  </div>
+</div>
+
+  <footer>
+  </footer>
+  </body>
+</html>
